@@ -1,0 +1,123 @@
+html,body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  min-width: 1000px;
+  .logo {
+    float: left;
+    margin-top: 30px;
+    height: 39px;
+    width: 165px;
+    background-image: url(./images/logo.png);
+    background-size: 100% 100%;
+  }
+  .nav {
+    display: inline-block;
+    float: right;
+    height: 100px;
+    li {
+      height: 100px;
+      line-height: 100px;
+      display: inline-block;
+      font-size: 18px;
+      color: #000;
+      margin-left: 40px;
+    }
+    .current {
+      color: #58c1fe !important;
+    }
+  }
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  background-image: url(/images/banner.png);
+  background-size: 100% 100%;
+}
+.main {
+  width: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+  .blockInfo {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url(/images/pic1.png);
+    background-size: cover;
+    .text1 {
+      position: absolute;
+      height: 165px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 70%;
+      right: 0;
+      top: 0;
+      padding: 15px;
+      margin-top: 25px;
+      color: #58c1fe;
+      border: 7px solid #58c1fe;
+    }
+    .text2 {
+      position: absolute;
+      height: 165px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 50%;
+      right: 0;
+      bottom: 0;
+      font-size: 16px;
+      color: #999999;
+    }
+  }
+  .tabbox {
+    margin-top: 100px;
+    width: 100%;
+    border-top: 3px solid #e1e1e1;
+    border-bottom: 3px solid #e1e1e1;
+    .tab {
+      width: 80%;
+      margin: 0 auto;
+      height: 100px;
+      li {
+        z-index: 100;
+        position: relative;
+        list-style-type:none;
+        height: 100px;
+        line-height: 100px;
+        float: left;
+        text-align: center;
+        width: 25%;
+        color: #666666;
+        font-size: 20px;
+      }
+      .current {
+        span {
+          color: #fff !important;
+        }
+        &:before {
+          z-index: -1;
+          content: '';
+          position: absolute;
+          top: -16px;
+          left: 0;
+          width: 100%;
+          height: 132px;
+          background-image: url(/images/bk2.png);
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+  }
+  .tableList {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

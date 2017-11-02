@@ -119,3 +119,38 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+.footer{
+  height: 347px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(images/footer_pic.png);
+}
+.footer .icons{
+  margin: 80px 240px 0 0;
+  width: 200px;
+}
+.footer .icons a{
+  text-decoration: none;
+  width: 190px;
+  margin: 0 auto;
+  display: block;
+}
+.footer .icons a img{
+  margin: 0 auto;
+  display: block;
+}
+.footer .icons .item{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+.footer .icons .detail{
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}

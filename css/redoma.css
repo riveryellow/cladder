@@ -1,0 +1,121 @@
+.banner {
+  width: 100%;
+  height: 673px;
+  max-height: 800px;
+  background-image: url(../images/redoma-banner.png);
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.flow{
+  height: 669px;
+  width: 100%;
+  margin: 0 auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: rgb(247,247,247);
+}
+.use-case{
+  height: 1860px;
+}
+.headline{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 250px;
+}
+.use-case ul{
+  margin: 0;
+  padding: 0;
+}
+.use-case ul li{
+  height: 402px;
+  display: block;
+}
+.use-case ul li:first-child{
+  background-image: url(../images/case1.png);
+  background-size: cover;
+}
+.use-case ul li:nth-child(2){
+  background-image: url(../images/case2.png);
+  background-size: cover;
+}
+.use-case ul li:nth-child(3){
+  background-image: url(../images/case3.png);
+  background-size: cover;
+}
+.use-case ul li:nth-child(4){
+  background-image: url(../images/case4.png);
+  background-size: cover;
+}
+.use-case .description-left{
+  width: 50%;
+  float: left;
+  display: block;
+  height: 100%;
+}
+.use-case .description-right{
+  float: right;
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+.use-case ul li div{
+  background-image: url("../images/blackboard.png");
+}
+.use-case .description-right section{
+  height: 249px;
+  margin-left: 46px;
+  margin-top: 59px;
+  width: 558px;
+  margin-bottom: 0;
+}
+.use-case .description-left section{
+  height: 249px;
+  margin: 0 46px;
+  margin-top: 59px;
+  width: 558px;
+  margin-bottom: 0;
+}
+.use-case ul li div h1{
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  height: 28px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.use-case ul li div p{
+  font-size: 16px;
+  color: rgb(218,218,218);
+}
+.use-case ul li section+a{
+  display: block;
+  height: 12px;
+  text-decoration: none;
+  background-color: rgb(44,169,225);
+  font-size: 14px;
+  padding: 6px 6px 13px 6px;
+  color: rgb(218,218,218);
+  width: 92px;
+  margin-left: 46px;
+}
+.features{
+  height: 800px;
+}
+.features .features-items{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.features .features-items .item{
+  width: 24.8%;
+  height: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(239,239,239);
+  border-right-style: none;
+}
+

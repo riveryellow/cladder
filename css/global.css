@@ -3,6 +3,9 @@ body {
   padding: 0;
   margin: 0;
 }
+a{
+  text-decoration: none;
+}
 .header {
   width: 80%;
   height: 100px;
@@ -40,6 +43,7 @@ body {
   flex-direction: row;
   justify-content: center;
   background-image: url(../images/footer_pic.png);
+  background-size: cover;
 }
 .footer .icons{
   margin: 80px 120px 0 120px;
@@ -56,16 +60,15 @@ body {
   display: block;
 }
 .footer .icons .item{
-  font-family: Helvetica;
   font-weight: bold;
   font-size: 14px;
   color: #fff;
   text-align: center;
 }
 .footer .icons .detail{
-  font-family: Helvetica;
   font-weight: 100;
   font-size: 16px;
-  color: #fff;
+  color: rgb(218,218,218);
   text-align: center;
+  border-style: solid;
 }

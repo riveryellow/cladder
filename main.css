@@ -7,7 +7,7 @@ body {
 .banner {
   width: 100%;
   height: 400px;
-  background-image: url(/images/banner.png);
+  background-image: url(images/banner.png);
   background-size: 100% 100%;
 }
 .main {
@@ -20,7 +20,7 @@ body {
   width: 80%;
   margin: 0 auto;
   height: 500px;
-  background-image: url(/images/pic1.png);
+  background-image: url(images/pic1.png);
   background-size: cover;
 }
 .main .blockInfo .text1 {
@@ -81,7 +81,7 @@ body {
   left: 0;
   width: 100%;
   height: 132px;
-  background-image: url(/images/bk2.png);
+  background-image: url(images/bk2.png);
   background-size: 100% 100%;
 }
 .main .tableList {
@@ -109,5 +109,6 @@ body {
   float: left;
   width: 50%;
   height: 512px;
-  background-image: url(/images/usecase/pic.png);
+  background-image: url(images/usecase/pic.png);
+  background-size: cover;
 }

@@ -1,11 +1,11 @@
 .banner {
   width: 100%;
   height: 400px;
-  background-image: url(images/features/banner1.png);
+  background-image: url(/images/features/banner1.png);
   background-size: 100% 100%;
 }
 .blanktab {
-  width: 80%;
+  width: 1200px;
   height: 100px;
   margin: 0 auto;
 }
@@ -22,7 +22,7 @@
   background-color: #f7f7f7;
 }
 .main {
-  width: 80%;
+  width: 1200px;
   height: 700px;
   margin: 0 auto;
   overflow: hidden;
@@ -76,7 +76,7 @@
   margin-left: 45px;
   margin-right: 45px;
   padding: 15px;
-  background-image: url(images/features/Rectangular-.png);
+  background-image: url(/images/features/Rectangular-.png);
   background-size: 100% 100%;
 }
 .main .blockInfo2 .blockContainer img {
@@ -110,7 +110,7 @@
   line-height: 1.5;
 }
 .articleContainer {
-  width: 80%;
+  width: 1200px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -123,7 +123,6 @@
   font-size: 72px;
   color: #313131;
   margin-bottom: 25px;
-  font-weight: bold;
 }
 .articleContainer .article1 .content {
   padding: 45px;
@@ -135,7 +134,6 @@
   color: #ffffff;
   font-size: 16px;
   line-height: 2;
-  margin-top: 69px;
 }
 .articleContainer .article2 {
   float: left;

@@ -114,7 +114,10 @@
 .features .features-items{
   display: flex;
   display: -webkit-flex;
-  flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   justify-content: flex-start;
   margin-bottom: 50px;
 }
@@ -142,9 +145,12 @@
 .pricing .benifits{
   height: 574px;
   display: flex;
+  display: -ms-flexbox;
   display: -webkit-flex;
   align-items: center;
   justify-content: center;
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
 }
 .pricing .benifits .whiteboard{
   height: 498px;

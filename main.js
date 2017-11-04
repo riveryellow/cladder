@@ -1,3 +1,8 @@
-/**
- * Created by azoth on 2017/11/2.
- */
+function removeClass() {
+  $('.tab li').removeClass('current');
+}
+$('.icon').click(function (e) {
+  e.stopPropagation();
+  removeClass();
+  $(e.currentTarget).addClass('current')
+});

@@ -87,10 +87,27 @@ body {
 .main .tableList {
   width: 80%;
   margin: 100px auto;
+  overflow: hidden;
 }
 .main .tableList .article {
   width: 50%;
+  float: left;
+}
+.main .tableList .article .title {
+  font-size: 24px;
+  color: #313131;
+}
+.main .tableList .article .content {
+  font-size: 16px;
+  color: #999999;
+}
+.main .tableList p {
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .main .tableList .img {
+  float: left;
   width: 50%;
+  height: 512px;
+  background-image: url(/images/usecase/pic.png);
 }

@@ -129,7 +129,7 @@
   word-wrap: break-word;
   word-break: break-all;
   background-color: #2ca9e1;
-  height: 434px;
+  height: 344px;
   color: #ffffff;
   font-size: 16px;
   line-height: 2;
@@ -153,8 +153,10 @@
   color: #999999;
   font-size: 16px;
   line-height: 2;
+  margin-bottom: 65px;
 }
-.articleContainer .article2 .articlebox img {
+.articleContainer .article2 .articlebox .img {
+  height: 436px;
   width: 100%;
-  margin: 0 auto;
+  background-image: url(/images/features/pic.png);
 }

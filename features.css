@@ -31,7 +31,7 @@
 .main .blockInfo1 {
   float: left;
   height: 100%;
-  width: 42%;
+  width: 500px;
   margin-bottom: 35px;
   background-color: #ffffff;
 }
@@ -68,14 +68,13 @@
 }
 .main .blockInfo2 {
   float: left;
-  width: 58%;
+  width: 700px;
   height: 100%;
 }
 .main .blockInfo2 .blockContainer {
-  margin-top: 17px;
   margin-left: 45px;
   margin-right: 45px;
-  padding: 15px;
+  padding: 20px;
   background-image: url(/images/features/Rectangular-.png);
   background-size: 100% 100%;
 }
@@ -116,7 +115,7 @@
 }
 .articleContainer .article1 {
   float: left;
-  width: 33%;
+  width: 445px;
 }
 .articleContainer .article1 .title {
   overflow: hidden;
@@ -137,7 +136,7 @@
 }
 .articleContainer .article2 {
   float: left;
-  width: 66%;
+  width: 755px;
 }
 .articleContainer .article2 .articlebox {
   padding: 40px;

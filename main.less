@@ -22,7 +22,7 @@ html,body {
     background-size: cover;
     .text1 {
       position: absolute;
-      height: 165px;
+      height: 169px;
       overflow: hidden;
       text-overflow: ellipsis;
       width: 70%;
@@ -32,6 +32,7 @@ html,body {
       margin-top: 25px;
       color: #58c1fe;
       border: 7px solid #58c1fe;
+      line-height: 2;
     }
     .text2 {
       position: absolute;
@@ -43,6 +44,7 @@ html,body {
       bottom: 0;
       font-size: 16px;
       color: #999999;
+      line-height: 2;
     }
   }
   .tabbox {
@@ -62,9 +64,57 @@ html,body {
         line-height: 100px;
         float: left;
         text-align: center;
-        width: 25%;
+        width: 22%;
         color: #666666;
         font-size: 20px;
+        &:last-child {
+          width: 34%;
+        }
+      }
+      span {
+        padding-left: 45px;
+      }
+      .icon1 {
+        width: 55px;
+        height: 36px;
+        background-image: url(/images/usecase/modernization.png);
+        background-size: 100% 100%;
+        position: absolute;
+        top:50%;
+        left: 32px;
+        margin-top: -18px;
+      }
+      .icon2 {
+        width: 54px;
+        height: 40px;
+        background-image: url(/images/usecase/Hybrid-Cloud.png);
+        background-size: 100% 100%;
+        position: absolute;
+        top:50%;
+        left: 32px;
+        margin-top: -20px;
+      }
+      .icon3 {
+        width: 54px;
+        height: 41px;
+        background-image: url(/images/usecase/Dual-Mode-It.png);
+        background-size: 100% 100%;
+        position: absolute;
+        top:50%;
+        left: 32px;
+
+        margin-top: -20.5px;
+      }
+      .icon4 {
+        width: 55px;
+        height: 42px;
+        background-image: url(/images/usecase/Operational-Data-Store.png);
+        background-size: 100% 100%;
+        position: absolute;
+        top:50%;
+        left: 32px;
+
+        margin-top: -21px;
       }
       .current {
         span {
@@ -90,8 +140,10 @@ html,body {
     margin: 100px auto;
     overflow: hidden;
     .article {
-      width: 50%;
+      width: 580px;
       float: left;
+      margin-right: 40px;
+      line-height: 2;
       .title {
         font-size: 24px;
         color: #313131;
@@ -106,7 +158,7 @@ html,body {
     }
     .img {
       float: left;
-      width: 50%;
+      width: 580px;
       height: 512px;
       background-image: url(/images/usecase/pic.png);
       background-size: 100% 100%;

@@ -22,10 +22,14 @@
   height: 1860px;
 }
 .headline{
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  width: 100%;
+  display:table;
   height: 250px;
+  text-align: center;
+}
+.headline span{
+  display: table-cell;
+  vertical-align: middle;
 }
 .use-case ul{
   margin: 0;

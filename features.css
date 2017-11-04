@@ -128,8 +128,6 @@
 .articleContainer .article1 .content {
   padding: 45px;
   display: block;
-  word-wrap: break-word;
-  word-break: break-all;
   background-color: #2ca9e1;
   height: 344px;
   color: #ffffff;
@@ -150,8 +148,6 @@
 }
 .articleContainer .article2 .articlebox .content {
   display: block;
-  word-wrap: break-word;
-  word-break: break-all;
   color: #999999;
   font-size: 16px;
   line-height: 2;

@@ -127,7 +127,7 @@
   margin-left: 0px;
 }
 .features{
-  height: 900px;
+  height: 753px;
 }
 .features .features-items{
   display: flex;
@@ -141,7 +141,7 @@
 }
 .features .features-items .essential{
   width: 24.8%;
-  height: 250px;
+  height: 172px;
   border-style: solid;
   border-width: thin;
   border-color: rgb(239,239,239);

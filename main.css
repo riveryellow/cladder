@@ -146,6 +146,7 @@ body {
 .main .tableList .article .title {
   font-size: 24px;
   color: #313131;
+  font-weight: bold;
 }
 .main .tableList .article .content {
   font-size: 16px;

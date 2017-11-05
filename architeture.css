@@ -1,7 +1,7 @@
 .banner {
   width: 100%;
   height: 400px;
-  background-image: url(/images/architecture/banner.png);
+  background-image: url(images/architecture/banner.png);
   background-size: 100% 100%;
 }
 .blanktab {
@@ -56,6 +56,9 @@
 }
 .main .articlebox .article p {
   line-height: 2;
+}
+.main .articlebox .article p:first-of-type{
+  margin-top: 0;
 }
 .articleContainer {
   width: 1200px;

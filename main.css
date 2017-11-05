@@ -75,8 +75,17 @@ body {
 .main .tabbox .tab li:last-child {
   width: 34%;
 }
-.main .tabbox .tab span {
+.main .tabbox .tab .tab1 span {
+  padding-left: 55px;
+}
+.main .tabbox .tab .tab2 span {
   padding-left: 45px;
+}
+.main .tabbox .tab .tab3 span {
+  padding-left: 45px;
+}
+.main .tabbox .tab .tab4 span {
+  padding-left: 5px;
 }
 .main .tabbox .tab .icon1 {
   width: 55px;
@@ -91,7 +100,7 @@ body {
 .main .tabbox .tab .icon2 {
   width: 54px;
   height: 40px;
-  background-image: url(/images/usecase/Hybrid-Cloud.png);
+  background-image: url(/images/usecase/HybridCloud.png);
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
@@ -101,7 +110,7 @@ body {
 .main .tabbox .tab .icon3 {
   width: 54px;
   height: 41px;
-  background-image: url(/images/usecase/Dual-Mode-It.png);
+  background-image: url(/images/usecase/DualModeIt.png);
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
@@ -111,12 +120,24 @@ body {
 .main .tabbox .tab .icon4 {
   width: 55px;
   height: 42px;
-  background-image: url(/images/usecase/Operational-Data-Store.png);
+  background-image: url(/images/usecase/OperationalDataStore.png);
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
   left: 32px;
   margin-top: -21px;
+}
+.main .tabbox .tab .current .icon1 {
+  background-image: url(/images/usecase/modernization_1.png);
+}
+.main .tabbox .tab .current .icon2 {
+  background-image: url(/images/usecase/HybridCloud_1.png);
+}
+.main .tabbox .tab .current .icon3 {
+  background-image: url(/images/usecase/DualModeIt_1.png);
+}
+.main .tabbox .tab .current .icon4 {
+  background-image: url(/images/usecase/OperationalDataStore_1.png);
 }
 .main .tabbox .tab .current span {
   color: #fff !important;

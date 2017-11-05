@@ -4,29 +4,13 @@
   background-image: url(/images/architecture/banner.png);
   background-size: 100% 100%;
 }
-.blanktab {
-  width: 1200px;
-  height: 100px;
-  margin: 0 auto;
-  .blank1 {
-    float: left;
-    height: 100%;
-    width: 25%;
-    background-color: #ffffff;
-  }
-  .blank2 {
-    float: left;
-    height: 100%;
-    width: 75%;
-    background-color: #f7f7f7;
-  }
-}
 .main {
   background-image: url(/images/architecture/Frame_1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 1200px;
-  margin: 0 auto;
+  margin: 45px auto;
+  margin-bottom: 0;
   overflow: hidden;
   padding-top: 80px;
   .titlebox {
@@ -34,8 +18,10 @@
     float: left;
     overflow: hidden;
     .title {
+      font-weight: bolder;
       line-height: 1;
       margin-bottom: 38px;
+      letter-spacing: -5px;
       font-size: 76px;
       color: #313131;
       &:last-child {
@@ -76,13 +62,17 @@
       margin-bottom: 25px;
     }
     .content {
-      padding: 45px;
+      padding: 35px 45px 45px;
       display: block;
       background-color: #2ca9e1;
       height: 210px;
       color: #ffffff;
       font-size: 16px;
       line-height: 2;
+      p {
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
     }
   }
 
@@ -92,6 +82,14 @@
   height: 898px;
   position: relative;
   background-color: #f7f7f7;
+  .blanktab1 {
+    top:0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    background-color: #ffffff;
+  }
   .framebox {
     width: 1200px;
     height: 100%;
@@ -117,6 +115,7 @@
       width: 400px;
       font-size: 36px;
       color: #313131;
+      font-weight: bolder;
     }
     .img {
       top: 220px;
@@ -131,6 +130,14 @@
     }
   }
   .blanktab {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .blanktab1 {
     height: 100px;
     width: 100%;
     background-color: #ffffff;

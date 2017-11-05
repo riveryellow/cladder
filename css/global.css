@@ -29,6 +29,7 @@ a{
   display: inline-block;
   float: right;
   height: 100px;
+  font-weight: bolder;
 }
 .header .nav li {
   height: 100px;

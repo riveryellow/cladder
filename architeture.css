@@ -1,43 +1,29 @@
 .banner {
   width: 100%;
   height: 400px;
-  background-image: url(images/architecture/banner.png);
+  background-image: url(/images/architecture/banner.png);
   background-size: 100% 100%;
-}
-.blanktab {
-  width: 1200px;
-  height: 100px;
-  margin: 0 auto;
-}
-.blanktab .blank1 {
-  float: left;
-  height: 100%;
-  width: 25%;
-  background-color: #ffffff;
-}
-.blanktab .blank2 {
-  float: left;
-  height: 100%;
-  width: 75%;
-  background-color: #f7f7f7;
 }
 .main {
   background-image: url(/images/architecture/Frame_1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 1200px;
-  margin: 0 auto;
+  margin: 45px auto;
+  margin-bottom: 0;
   overflow: hidden;
   padding-top: 80px;
 }
 .main .titlebox {
-  width: 52%;
+  width: 50%;
   float: left;
   overflow: hidden;
 }
 .main .titlebox .title {
+  font-weight: bolder;
   line-height: 1;
   margin-bottom: 38px;
+  letter-spacing: -5px;
   font-size: 76px;
   color: #313131;
 }
@@ -45,7 +31,7 @@
   margin-bottom: 80px;
 }
 .main .articlebox {
-  width: 48%;
+  width: 50%;
   float: left;
 }
 .main .articlebox .article {
@@ -56,9 +42,6 @@
 }
 .main .articlebox .article p {
   line-height: 2;
-}
-.main .articlebox .article p:first-of-type{
-  margin-top: 0;
 }
 .articleContainer {
   width: 1200px;
@@ -80,7 +63,7 @@
   margin-bottom: 25px;
 }
 .articleContainer .article .content {
-  padding: 20px 45px 70px 45px;
+  padding: 35px 45px 45px;
   display: block;
   background-color: #2ca9e1;
   height: 210px;
@@ -88,11 +71,23 @@
   font-size: 16px;
   line-height: 2;
 }
+.articleContainer .article .content p {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
 .blank {
   width: 100%;
   height: 898px;
   position: relative;
   background-color: #f7f7f7;
+}
+.blank .blanktab1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  background-color: #ffffff;
 }
 .blank .framebox {
   width: 1200px;
@@ -120,19 +115,28 @@
   width: 400px;
   font-size: 36px;
   color: #313131;
+  font-weight: bolder;
 }
 .blank .framebox .img {
   top: 220px;
   position: absolute;
   right: 0px;
   margin: 0 auto;
-  width: 835px;
-  height: 389px;
+  width: 680px;
+  height: 320px;
   background-image: url(/images/architecture/transfrom.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .blank .blanktab {
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.blank .blanktab1 {
   height: 100px;
   width: 100%;
   background-color: #ffffff;
@@ -165,7 +169,6 @@
   color: #999999;
   margin-left: 48px;
   margin-right: 15px;
-  line-height: 2;
 }
 .introduce .imgbox {
   float: left;
@@ -175,6 +178,6 @@
 .introduce .img {
   margin: 6px 3px 0px 10px;
   height: 610px;
-  background-image: url(images/architecture/pic_3.png);
+  background-image: url(/images/architecture/pic_3.png);
   background-size: 100% 100%;
 }

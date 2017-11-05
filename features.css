@@ -107,6 +107,7 @@ p {
 }
 .main .blockInfo2 .blockContainer .text {
   margin-top: 35px;
+  margin-bottom: 20px;
   max-height: 300px;
   display: -webkit-box;
   -webkit-box-orient: vertical;

@@ -136,7 +136,7 @@ p {
 }
 .articleContainer .article1 .content {
   line-height: 1;
-  padding: 45px;
+  padding: 25px 45px 65px 45px;
   display: block;
   background-color: #2ca9e1;
   height: 344px;

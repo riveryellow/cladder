@@ -77,16 +77,14 @@
 .use-case .description-right section{
   height: 249px;
   margin-left: 46px;
-  margin-top: 59px;
-  width: 558px;
+  margin-top: 29px;
+  width: 70%;
   margin-bottom: 0;
 }
 .use-case .description-left section{
   height: 280px;
-  margin: 59px 46px 0 0;
-  margin-top: 59px;
-  width: 558px;
-  margin-bottom: 0;
+  margin: 29px 46px 0 0;
+  width: 70%;
   float: right;
 }
 .use-case ul li div h1{
@@ -101,18 +99,20 @@
 .use-case ul li div p{
   font-size: 16px;
   color: rgb(218,218,218);
+  line-height: 1.8;
 }
-.use-case ul li .description-right section+a{
+.use-case ul li .description-right section a{
   display: block;
   height: 21px;
   text-decoration: none;
   background-color: rgb(44,169,225);
   font-size: 14px;
-  padding: 8px 6px 4px 6px;
+  padding: 8px 4px 4px 8px;
   color: rgb(218,218,218);
   width: 93px;
   max-width: 130px;
-  margin-left: 46px;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 .use-case ul li .description-left section a{
   display: block;
@@ -120,11 +120,12 @@
   text-decoration: none;
   background-color: rgb(44,169,225);
   font-size: 14px;
-  padding: 8px 6px 4px 6px;
+  padding: 8px 4px 4px 6px;
   color: rgb(218,218,218);
   width: 93px;
   max-width: 130px;
   margin-left: 0px;
+  margin-top: 20px;
 }
 .features{
   height: 753px;

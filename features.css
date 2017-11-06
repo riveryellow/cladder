@@ -137,6 +137,7 @@ p {
   color: #313131;
   margin-bottom: 23px;
   font-weight: bold;
+  letter-spacing: -2px;
 }
 .articleContainer .article1 .content {
   line-height: 1;
@@ -160,6 +161,7 @@ p {
   line-height: 1;
   color: #333333;
   margin-bottom: 39px;
+  font-weight: bold;
 }
 .articleContainer .article2 .articlebox .content {
   height: 189px;

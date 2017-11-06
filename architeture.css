@@ -18,7 +18,7 @@ p {
   padding-top: 80px;
 }
 .main .titlebox {
-  width: 50%;
+  width: 48%;
   float: left;
   overflow: hidden;
 }
@@ -34,11 +34,11 @@ p {
   margin-bottom: 80px;
 }
 .main .articlebox {
-  width: 50%;
-  float: left;
+  width: 48%;
+  float: right;
 }
 .main .articlebox .article {
-  padding-left: 35px;
+  padding-left: 0px;
   padding-right: 35px;
   font-size: 16px;
   color: #999999;

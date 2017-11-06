@@ -1,7 +1,7 @@
 .banner {
   width: 100%;
   height: 400px;
-  background-image: url(images/features/banner1.png);
+  background-image: url(../images/features/banner1.png);
   background-size: 100% 100%;
 }
 p {
@@ -84,7 +84,7 @@ p {
   margin-left: 45px;
   margin-right: 45px;
   padding: 20px;
-  background-image: url(images/features/Rectangular-.png);
+  background-image: url(../images/features/Rectangular-.png);
   background-size: 100% 100%;
 }
 .main .blockInfo2 .blockContainer img {
@@ -178,5 +178,5 @@ p {
 .articleContainer .article2 .articlebox .img {
   height: 436px;
   width: 100%;
-  background-image: url(images/features/pic.png);
+  background-image: url(../images/features/pic.png);
 }

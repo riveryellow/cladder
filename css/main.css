@@ -7,7 +7,7 @@ body {
 .banner {
   width: 100%;
   height: 400px;
-  background-image: url(/images/banner.png);
+  background-image: url(../images/banner.png);
   background-size: 100% 100%;
 }
 .main {
@@ -20,7 +20,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   height: 500px;
-  background-image: url(/images/pic1.png);
+  background-image: url(../images/pic1.png);
   background-size: cover;
 }
 .main .blockInfo .text1 {
@@ -90,7 +90,7 @@ body {
 .main .tabbox .tab .icon1 {
   width: 55px;
   height: 36px;
-  background-image: url(/images/usecase/modernization.png);
+  background-image: url(../images/usecase/modernization.png);
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
@@ -100,7 +100,7 @@ body {
 .main .tabbox .tab .icon2 {
   width: 54px;
   height: 40px;
-  background-image: url(/images/usecase/HybridCloud.png);
+  background-image: url(../images/usecase/HybridCloud.png);
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
@@ -110,7 +110,7 @@ body {
 .main .tabbox .tab .icon3 {
   width: 54px;
   height: 41px;
-  background-image: url(/images/usecase/DualModeIt.png);
+  background-image: url(../images/usecase/DualModeIt.png);
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
@@ -120,7 +120,7 @@ body {
 .main .tabbox .tab .icon4 {
   width: 55px;
   height: 42px;
-  background-image: url(/images/usecase/OperationalDataStore.png);
+  background-image: url(../images/usecase/OperationalDataStore.png);
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
@@ -128,16 +128,16 @@ body {
   margin-top: -21px;
 }
 .main .tabbox .tab .current .icon1 {
-  background-image: url(/images/usecase/modernization_1.png);
+  background-image: url(../images/usecase/modernization_1.png);
 }
 .main .tabbox .tab .current .icon2 {
-  background-image: url(/images/usecase/HybridCloud_1.png);
+  background-image: url(../images/usecase/HybridCloud_1.png);
 }
 .main .tabbox .tab .current .icon3 {
-  background-image: url(/images/usecase/DualModeIt_1.png);
+  background-image: url(../images/usecase/DualModeIt_1.png);
 }
 .main .tabbox .tab .current .icon4 {
-  background-image: url(/images/usecase/OperationalDataStore_1.png);
+  background-image: url(../images/usecase/OperationalDataStore_1.png);
 }
 .main .tabbox .tab .current span {
   color: #fff !important;
@@ -150,7 +150,7 @@ body {
   left: 0;
   width: 100%;
   height: 132px;
-  background-image: url(/images/bk2.png);
+  background-image: url(../images/bk2.png);
   background-size: 100% 100%;
 }
 .main .tableList {
@@ -178,6 +178,6 @@ body {
   float: left;
   width: 580px;
   height: 512px;
-  background-image: url(/images/usecase/pic.png);
+  background-image: url(../images/usecase/pic.png);
   background-size: 100% 100%;
 }

@@ -1,8 +1,37 @@
 .banner {
   width: 100%;
   height: 400px;
-  background-image: url(../images/architecture/banner.png);
+  background-image: url(../images/web/pic2.png);
   background-size: 100% 100%;
+}
+.banner .textbox {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+}
+.banner .textbox .textbg {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  right: 0;
+  width: 650px;
+  height: 231px;
+  background-image: url(../images/web/features.png);
+  background-size: 100% 100%;
+}
+.banner .textbox .textbg p {
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+  color: #141414;
+  font-weight: bolder;
+  line-height: 1;
+}
+.banner .textbox .textbg .text1 {
+  margin-top: 60px;
+}
+.banner .textbox .textbg .text2 {
+  margin-top: 20px;
 }
 p {
   margin-top: 0;

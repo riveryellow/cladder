@@ -5,140 +5,141 @@
   background-image: url(../images/web/pic.png);
   background-size: 100% 100%;
   overflow: hidden;
+  .textbox {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    .titlelist {
+      position: absolute;
+      left: 0;
+      top: 68px;
+      font-size: 72px;
+      color: #ffffff;
+      font-weight: bolder;
+      .title {
+        margin-top: 82px;
+        line-height: 1;
+      }
+    }
+    .textbg {
+      position: absolute;
+      margin: 0 auto;
+      bottom: 0;
+      right: 0;
+      width: 586px;
+      height: 373px;
+      top: 50%;
+      margin-top: -186.5px;
+      background-image: url(../images/web/redoma.png);
+      background-size: 100% 100%;
+      p {
+        margin: 0;
+        line-height: 1;
+        margin-left: 54px;
+        width: 482px;
+      }
+      .title {
+        margin-top: 15px;
+        color: #00aeff;
+        font-size: 24px;
+        &:last-child {
+          margin-top: 8px;
+        }
+      }
+      .text {
+        font-size: 18px;
+        color: #f0f0f0;
+        line-height: 1.6;
+      }
+      .top {
+        margin-top: 24px;
+      }
+    }
+  }
 }
-.banner .textbox {
-  position: relative;
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
-.banner .textbox .titlelist {
-  position: absolute;
-  left: 0;
-  top: 68px;
-  font-size: 72px;
-  color: #ffffff;
-  font-weight: bolder;
-}
-.banner .textbox .titlelist .title {
-  margin-top: 82px;
-  line-height: 1;
-}
-.banner .textbox .textbg {
-  position: absolute;
-  margin: 0 auto;
-  bottom: 0;
-  right: 0;
-  width: 586px;
-  height: 373px;
-  top: 50%;
-  margin-top: -186.5px;
-  background-image: url(../images/web/redoma.png);
-  background-size: 100% 100%;
-}
-.banner .textbox .textbg p {
-  margin: 0;
-  line-height: 1;
-  margin-left: 54px;
-  width: 482px;
-}
-.banner .textbox .textbg .title {
-  margin-top: 15px;
-  color: #00aeff;
-  font-size: 24px;
-}
-.banner .textbox .textbg .title:last-child {
-  margin-top: 8px;
-}
-.banner .textbox .textbg .text {
-  font-size: 18px;
-  color: #f0f0f0;
-  line-height: 1.6;
-}
-.banner .textbox .textbg .top {
-  margin-top: 24px;
-}
-.flow {
+.flow{
   height: 669px;
   width: 100%;
   margin: 0 auto;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  justify-content:center;
+  -webkit-justify-content:center;
+  -ms-justify-content:center;
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
-  background-color: #f7f7f7;
+  align-items:center;
+  background-color: rgb(247,247,247);
 }
-.use-case {
+.flow img{}
+.use-case{
   height: 1860px;
 }
-.headline {
+.headline{
   width: 100%;
-  display: table;
+  display:table;
   height: 250px;
   text-align: center;
 }
-.headline span {
+.headline span{
   display: table-cell;
   vertical-align: middle;
 }
-.use-case ul {
+.use-case ul{
   margin: 0;
   padding: 0;
 }
-.use-case ul li {
+.use-case ul li{
   height: 402px;
   display: block;
 }
-.use-case ul li:first-child {
+.use-case ul li:first-child{
   background-image: url(../images/case1.png);
   background-size: cover;
 }
-.use-case ul li:nth-child(2) {
+.use-case ul li:nth-child(2){
   background-image: url(../images/case2.png);
   background-size: cover;
 }
-.use-case ul li:nth-child(3) {
+.use-case ul li:nth-child(3){
   background-image: url(../images/case3.png);
   background-size: cover;
 }
-.use-case ul li:nth-child(4) {
+.use-case ul li:nth-child(4){
   background-image: url(../images/case4.png);
   background-size: cover;
 }
-.use-case .description-left {
+.use-case .description-left{
   width: 50%;
   float: left;
   display: block;
   height: 100%;
 }
-.use-case .description-right {
+.use-case .description-right{
   float: right;
   display: block;
   width: 50%;
   height: 100%;
 }
-.use-case ul li div {
+.use-case ul li div{
   background-image: url("../images/blackboard.png");
 }
-.use-case .description-right section {
+.use-case .description-right section{
   height: 249px;
   margin-left: 46px;
   margin-top: 29px;
   width: 70%;
   margin-bottom: 0;
 }
-.use-case .description-left section {
+.use-case .description-left section{
   height: 280px;
   margin: 29px 46px 0 0;
   width: 70%;
   float: right;
 }
-.use-case ul li div h1 {
+.use-case ul li div h1{
   font-size: 22px;
   font-weight: bold;
   color: #fff;
@@ -147,41 +148,41 @@
   margin-bottom: 0;
   margin-top: 0;
 }
-.use-case ul li div p {
+.use-case ul li div p{
   font-size: 16px;
-  color: #dadada;
+  color: rgb(218,218,218);
   line-height: 1.8;
 }
-.use-case ul li .description-right section a {
+.use-case ul li .description-right section a{
   display: block;
   height: 21px;
   text-decoration: none;
-  background-color: #2ca9e1;
+  background-color: rgb(44,169,225);
   font-size: 14px;
   padding: 8px 4px 4px 8px;
-  color: #dadada;
+  color: rgb(218,218,218);
   width: 93px;
   max-width: 130px;
   margin-left: 0px;
   margin-top: 20px;
 }
-.use-case ul li .description-left section a {
+.use-case ul li .description-left section a{
   display: block;
   height: 21px;
   text-decoration: none;
-  background-color: #2ca9e1;
+  background-color: rgb(44,169,225);
   font-size: 14px;
   padding: 8px 4px 4px 6px;
-  color: #dadada;
+  color: rgb(218,218,218);
   width: 93px;
   max-width: 130px;
   margin-left: 0px;
   margin-top: 20px;
 }
-.features {
+.features{
   height: 753px;
 }
-.features .features-items {
+.features .features-items{
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -191,28 +192,28 @@
   justify-content: flex-start;
   margin-bottom: 50px;
 }
-.features .features-items .essential {
+.features .features-items .essential{
   width: 24.8%;
   height: 172px;
   border-style: solid;
   border-width: thin;
-  border-color: #efefef;
+  border-color: rgb(239,239,239);
   border-right-style: none;
   padding-top: 41px;
   padding-bottom: 37px;
   text-align: center;
 }
-.features .features-items .essential p:first-of-type {
+.features .features-items .essential p:first-of-type{
   font-size: 24px;
   font-weight: bold;
   margin-top: 12px;
   margin-bottom: 42px;
 }
-.features .features-items .essential p:nth-of-type(2) {
+.features .features-items .essential p:nth-of-type(2){
   font-size: 16px;
-  color: #999999;
+  color: rgb(153,153,153);
 }
-.pricing .benifits {
+.pricing .benifits{
   height: 574px;
   display: flex;
   display: -ms-flexbox;
@@ -222,60 +223,60 @@
   -ms-justify-content: center;
   -webkit-justify-content: center;
 }
-.pricing .benifits .whiteboard {
+.pricing .benifits .whiteboard{
   height: 498px;
   width: 362px;
   border-style: solid;
   border-width: thin;
-  border-color: #2ca9e1;
+  border-color: rgb(44,169,225);
   margin-right: 61px;
 }
-.pricing .benifits .tan {
-  background-color: #4a6a78;
+.pricing .benifits .tan{
+  background-color: rgb(74,106,120);
   height: 526px;
   width: 331px;
   margin-right: 61px;
 }
-.pricing .benifits section {
+.pricing .benifits section{
   height: 378px;
   margin-top: 45px;
   margin-left: 53px;
 }
-.pricing .benifits section h1 {
+.pricing .benifits section h1{
   font-size: 20px;
   margin-top: 20px;
   font-weight: bold;
   margin-bottom: 0;
 }
-.pricing .benifits .tan section h1 {
+.pricing .benifits .tan section h1{
   color: #fff;
 }
-.pricing .benifits section h2 {
+.pricing .benifits section h2{
   margin-bottom: 48px;
   font-size: 18px;
   font-weight: normal;
 }
-.pricing .benifits .tan section h2 {
+.pricing .benifits .tan section h2{
   color: #fff;
 }
-.pricing .benifits .whiteboard section h2 {
+.pricing .benifits .whiteboard section h2{
   color: #313131;
 }
-.pricing .benifits section ol {
+.pricing .benifits section ol{
   padding-left: 18px;
   margin: 0;
 }
-.pricing .benifits section ol li {
+.pricing .benifits section ol li{
   margin-bottom: 16px;
   font-size: 14px;
 }
-.pricing .benifits .whiteboard section ol li {
+.pricing .benifits .whiteboard section ol li{
   color: #999;
 }
-.pricing .benifits .tan section ol li {
+.pricing .benifits .tan section ol li{
   color: #fff;
 }
-.pricing .benifits a {
+.pricing .benifits a{
   margin-left: 53px;
   text-decoration: none;
   font-size: 16px;
@@ -286,11 +287,11 @@
   padding: 6px 6px 6px 6px;
   text-align: center;
 }
-.pricing .benifits .whiteboard a {
-  background-color: #2ca9e1;
+.pricing .benifits .whiteboard a{
+  background-color: rgb(44,169,225);
   color: #fff;
 }
-.pricing .benifits .tan a {
+.pricing .benifits .tan a{
   background-color: #fff;
   color: #000;
 }

@@ -14,7 +14,6 @@
       position: absolute;
       left: 0;
       top: 166px;
-      font-size: 72px;
       color: #ffffff;
       font-weight: bolder;
       .title {
@@ -31,7 +30,7 @@
       height: 373px;
       top: 50%;
       margin-top: -186.5px;
-      background-color: rgba(155,155,155,0.2);
+      background-color: rgba(0,0,0,0.2);
       background-size: 100% 100%;
       p {
         margin: 0;
@@ -43,13 +42,14 @@
         margin-top: 15px;
         color: #00aeff;
         font-size: 24px;
+        font-weight: bold;
         &:last-child {
           margin-top: 8px;
         }
       }
       .text {
         font-size: 18px;
-        color: #f0f0f0;
+        color: rgb(240,240,240);
         line-height: 1.7;
       }
       .top {
@@ -111,29 +111,29 @@
   background-image: url(../images/case4.png);
   background-size: cover;
 }
-.use-case .description-left{
+.use-case .left{
   width: 50%;
   float: left;
   display: block;
   height: 100%;
 }
-.use-case .description-right{
+.use-case .right{
   float: right;
   display: block;
   width: 50%;
   height: 100%;
 }
-.use-case ul li div{
+.use-case ul li .description{
   background-color: rgba(0,0,0,0.6);
 }
-.use-case .description-right section{
+.use-case .right section{
   height: 249px;
   margin-left: 46px;
   margin-top: 29px;
   width: 70%;
   margin-bottom: 0;
 }
-.use-case .description-left section{
+.use-case .left section{
   height: 280px;
   margin: 29px 46px 0 0;
   width: 70%;
@@ -150,10 +150,16 @@
 }
 .use-case ul li div p{
   font-size: 16px;
-  color: rgb(218,218,218);
+  color: #dadada;
   line-height: 1.8;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  margin: 0;
 }
-.use-case ul li .description-right section a{
+.use-case ul li .right section a{
   display: block;
   height: 21px;
   text-decoration: none;
@@ -164,9 +170,9 @@
   width: 100px;
   max-width: 130px;
   margin-left: 0px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
-.use-case ul li .description-left section a{
+.use-case ul li .left section a{
   display: block;
   height: 21px;
   text-decoration: none;
@@ -177,7 +183,7 @@
   width: 100px;
   max-width: 130px;
   margin-left: 0px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .features{
   height: 753px;
@@ -202,6 +208,7 @@
   padding-top: 41px;
   padding-bottom: 37px;
   text-align: center;
+  color: #333;
 }
 .features .features-items .essential p:first-of-type{
   font-size: 24px;

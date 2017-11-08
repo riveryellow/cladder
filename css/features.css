@@ -4,6 +4,35 @@
   background-image: url(../images/features/banner1.png);
   background-size: 100% 100%;
 }
+.banner .titlebox{
+  width: 400px;
+  height: 232px;
+  margin-left: 23%;
+  padding-top: 95px;
+  position: relative;
+}
+.banner .titlebox P{
+  margin-top: 30px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+.banner .titlebox .line1{
+  width: 52px;
+  height: 13px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+.banner .titlebox .line2{
+  width: 6px;
+  height: 53px;
+  position: relative;
+  top: 20px;
+  left: 370px;
+  background-color: #fff;
+}
 p {
   margin: 0;
   overflow: hidden;
@@ -140,14 +169,13 @@ p {
   letter-spacing: -2px;
 }
 .articleContainer .article1 .content {
-  line-height: 1;
   padding: 25px 45px 65px 45px;
   display: block;
   background-color: #2ca9e1;
   height: 346px;
   color: #ffffff;
   font-size: 16px;
-  line-height: 2;
+  line-height: 2.1;
 }
 .articleContainer .article2 {
   float: left;

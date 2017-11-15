@@ -3,22 +3,18 @@
   height: 400px;
   background-image: url(../images/web/pic2.png);
   background-size: 100% 100%;
-}
-.banner .textbox {
   position: relative;
-  width: 1200px;
-  height: 100%;
 }
-.banner .textbox .textbg {
+.banner .textbg {
   position: absolute;
   bottom: 0;
-  left: 71.5%;
+  right: 14%;
   width: 650px;
   height: 231px;
   background-color: rgba(255,255,255,0.4);
   background-size: 100% 100%;
 }
-.banner .textbox .textbg p {
+.banner .textbg p {
   margin: 0;
   text-align: center;
   font-size: 48px;
@@ -26,10 +22,10 @@
   font-weight: bolder;
   line-height: 1;
 }
-.banner .textbox .textbg .text1 {
+.banner .textbg .text1 {
   margin-top: 60px;
 }
-.banner .textbox .textbg .text2 {
+.banner .textbg .text2 {
   margin-top: 20px;
 }
 p {

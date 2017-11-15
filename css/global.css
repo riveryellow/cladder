@@ -24,9 +24,9 @@ a{
 }
 .header .logo {
   float: left;
-  margin-top: 30px;
-  height: 39px;
-  width: 165px;
+  margin-top: 10px;
+  height: 82px;
+  width: 74px;
   background-image: url(../images/logo.png);
   background-size: 100% 100%;
 }
